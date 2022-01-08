@@ -1,0 +1,8 @@
+
+Smtp Modülü ile Mail Gönderme
+smtplib modülü ile beraber mail atmaya öğrenmeye çalışacağız. 
+Mail atmak için bir tane SMTP serverına ihtiyacımız olacak.
+Ancak öncelikle gmail üzerinden güvensiz uygulamalara izin vermemiz gerekiyor. 
+İlk olarak şu linke gidiyoruz;
+https://myaccount.google.com/lesssecureapps
+

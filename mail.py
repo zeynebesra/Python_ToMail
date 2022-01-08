@@ -3,13 +3,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import sys
 
-"""
-SMTP Modülü ile mail gönderme: daha az güvenli uygulamalar için öncelikle aşağıdaki linke gidiyoruz ve güvenliği
-kaldırıyoruz.
-https://myaccount.google.com/lesssecureapps
-
-"""
-
 mesaj = MIMEMultipart()  # Mail yapımızı oluşturuyoruz.
 
 mesaj["From"] =  "mail adresi" # Kimden Göndereceğimiz
